@@ -1,18 +1,20 @@
-import java.util.Scanner;
+
 public class Exercicio5 {
 
 	public static void main(String[] args) {
-		Scanner leia = new Scanner(System.in);
-		int i, t, n;
-		System.out.println("Insira o Número que deseja saber a Tabuada:");
-		n = leia.nextInt();
+		int i, j, c;
 		
 		for(i=1;i<=10;i++) {
-			t = n * i;
-			System.out.println(n+ " x "+ i + " = " + t);
+			System.out.println("");
+			System.out.println("Tabuada do "+i);
+			for(j=1;j<=10;j++) {
+				c = j * i;
+				System.out.println(i+" x "+j+" = "+c);
+			}
+			
 			
 		}
-		leia.close();
+		
 	}
 
 }
