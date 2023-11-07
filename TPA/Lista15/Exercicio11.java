@@ -4,13 +4,13 @@ public class Exercicio11 {
 	public static void main(String[] args) {
 		Scanner leia = new 	Scanner(System.in);
 		
-		int i, a[], b[], x;
+		int i, a[], x;
 		boolean e = false;
 		a = new int [10];
 		
 		
 		for(i=0; i < a.length; i++) {
-			System.out.println("Insira o "+(i + 1)+"º Elemento");
+			System.out.println("Insira o "+(i + 1)+"Âº Elemento");
 			a[i] = leia.nextInt();
 		}
 		
@@ -31,7 +31,7 @@ public class Exercicio11 {
 		if( e == true) {
 			System.out.println("O Elemento existe no Armazenamento.");
 		}else {
-			System.out.println("O Elemento não existe no Armazenamento.");
+			System.out.println("O Elemento nÃ£o existe no Armazenamento.");
 		}
 		
 		leia.close();
