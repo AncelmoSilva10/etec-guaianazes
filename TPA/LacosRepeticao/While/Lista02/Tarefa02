@@ -1,0 +1,11 @@
+Exercicio 1. Criar um programa que leia o salário de funcionário e calcule e apresente o desconto do INSS que será de:
+    • Caso o salário esteja abaixo de R$ 2000,00 o desconto será de 8,5%;
+    • Caso o salário seja igual ou acima de R$ 2000,00 o desconto será de 11%.
+Repita o procedimento para os 4 funcionários da empresa.
+
+Exercicio 2. Criar um programa que calcule e apresente a tabuada de um número inteiro digitado pelo usuário.
+
+Exercicio 3. Criar um programa que leia o nome e a idade de 10 usuários. Informar o nome e a idade do mais novo e o nome e a idade do mais velho.
+
+Exercicio 4. Criar um programa que leia o preço de um produto e a margem de lucro (em porcentagem). Calcule e apresente o preço de venda.
+Executar esse programa até que o usuário responda ‘N’ para a pergunta (‘Deseja continuar a execução? (S/N) ‘)
